@@ -75,11 +75,9 @@ This theme is distributed in the hope that it will be useful, but WITHOUT ANY WA
 [ionicons]:         https://github.com/ionic-team/ionicons
 [ionicons-author]:  https://github.com/ionic-team
 
-[iconify]:          https://iconify.design/
-
 - [SettingsIcons][si] by [Mirco Wittrien (DevilBro)][si-author] - GPL-2.0 license
 - [Ionicons][ionicons] by [Ionic][ionicons-author] - MIT license
-- [Iconify Icons](iconify)
+- [Iconify Icons](https://iconify.design/)
 
 ## Questions or suggestions?
 - Post [an issue][issues] on GitHub.
