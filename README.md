@@ -37,7 +37,7 @@ Enable the `ThemeAttributes` plugin in `Settings` > `Vencord` > `Plugins`.
 3. Click `Load missing Themes` and toggle on the theme card.
 ### Online
 1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
-    - `https://minidiscordthemes.github.io/SettingsIcons/SettingsIcons.theme.css`
+    - `https://hugo9655.github.io/SettingsIcons/SettingsIcons.theme.css`
 </details>
 
 ## Customisation
@@ -78,6 +78,7 @@ This theme is distributed in the hope that it will be useful, but WITHOUT ANY WA
 - [SettingsIcons][si] by [Mirco Wittrien (DevilBro)][si-author] - GPL-2.0 license
 - [Ionicons][ionicons] by [Ionic][ionicons-author] - MIT license
 - [Iconify Icons](https://iconify.design/)
+- [SVG Repo](https://www.svgrepo.com/)
 
 ## Questions or suggestions?
 - Post [an issue][issues] on GitHub.
