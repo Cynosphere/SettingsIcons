@@ -4,8 +4,9 @@
 [discord]:          https://discord.gg/uy8nKQVatp
 
 [Vencord]:          https://github.com/Vendicated/Vencord
+[moonlight]:        https://moonlight-mod.github.io
 
-[shield-vc-dl]:     https://img.shields.io/github/downloads/MiniDiscordThemes/SettingsIcons/SettingsIcons.theme.css?color=purple&label=Downloads&style=flat-square
+[shield-dl]:        https://img.shields.io/github/downloads/MiniDiscordThemes/SettingsIcons/SettingsIcons.theme.css?color=purple&label=Downloads&style=flat-square
 [shield-repo-size]: https://img.shields.io/github/repo-size/MiniDiscordThemes/SettingsIcons?label=Repository&style=flat-square "Total size"
 
 [github]:           https://github.com/MiniDiscordThemes/SettingsIcons
@@ -16,27 +17,42 @@
 [release-vc-gh]:    https://github.com/MiniDiscordThemes/SettingsIcons/releases/latest/download/SettingsIcons.theme.css "Get latest release"
 
 # SettingsIcons Discord Theme
-[![Vencord GitHub downloads][shield-vc-dl]][release-vc-gh]
+[![Theme GitHub downloads][shield-dl]][release-vc-gh]
 [![Total repository size][shield-repo-size]][github]
 
-***Adds icons to Discord settings, for use with Vencord plugin ThemeAttributes.***
+Adds icons to Discord settings
+
+Requires either Vencord's ThemeAttributes plugin or moonlight's CSS extension with "Theme Attributes" enabled
 
 ![Screenshot of SettingsIcons applied to Vencord settings][screenshot]
 
 ## Installation
 <details><summary>Click to expand</summary>
 
-⚠️ This theme is designed for use with [Vencord][Vencord]; other client mods are not supported.
+⚠️ This theme is designed for use with [Vencord][Vencord] or [moonlight][moonlight]; other client mods are not supported.
 
+### Vencord
 Enable the `ThemeAttributes` plugin in `Settings` > `Vencord` > `Plugins`.
-### Local
+#### Local
 1. Download `SettingsIcons.theme.css`:
     - [GitHub][release-vc-gh]
 2. Place the file in the themes folder:
     - `Settings` > `Vencord` > `Themes` > `Local Themes` > `Open Themes Folder`
 3. Click `Load missing Themes` and toggle on the theme card.
-### Online
+#### Online
 1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
+    - `https://hugo9655.github.io/SettingsIcons/SettingsIcons.theme.css`
+
+### moonlight
+Install and enable the `CSS` extension in `Settings` > `Moonbase`.
+Go to `Settings` of the extension and enable `Theme Attributes`.
+#### Local
+1. Download `SettingsIcons.theme.css`:
+    - [GitHub][release-vc-gh]
+2. Place the file somewhere permanent
+3. Add the path to the `Paths` list
+#### Online
+1. Paste the link into the `Paths` list
     - `https://hugo9655.github.io/SettingsIcons/SettingsIcons.theme.css`
 </details>
 
@@ -50,12 +66,22 @@ Enable the `ThemeAttributes` plugin in `Settings` > `Vencord` > `Plugins`.
 
 <details><summary>Click to expand</summary>
 
+### Vencord
 #### Local
 1. `Open Themes Folder` in `Settings` > `Vencord` > `Themes` > `Local Themes`
 2. Open `SettingsIcons.theme.css` with your favourite text editor.
 3. Edit the variable values and save.
 #### Online
 1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord` and click `Open QuickCSS File`.
+2. Copy and paste lines 15-20 of [`SettingsIcons.theme.css`][.theme.css].
+3. Edit the variable values.
+
+### moonlight
+#### Local
+1. Open `SettingsIcons.theme.css` with your favourite text editor.
+2. Edit the variable values and save.
+#### Online
+1. Create a file somewhere permanent and add its path to the `Paths` list
 2. Copy and paste lines 15-20 of [`SettingsIcons.theme.css`][.theme.css].
 3. Edit the variable values.
 </details>
